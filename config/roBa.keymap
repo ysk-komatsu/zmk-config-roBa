@@ -107,10 +107,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &none                                    &kp LG(EQUAL)        &mkp MB4                &mkp MB5              &none                    &none
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &none       &kp LG(F12)         &kp LG(MINUS)        &mkp LCLK               &mkp RCLK             &none                    &kp LC(UP_ARROW)
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &none           &kp LG(LS(RIGHT_ARROW))  &none    &kp F1      &kp F12             &none                &kp LG(LC(LEFT_ARROW))  &kp LG(LC(UP_ARROW))  &kp LG(LC(RIGHT_ARROW))  &none
-&bt BT_SEL 0    &bt BT_SEL 1            &bt BT_SEL 2    &trans                   &trans   &trans      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                                         &none
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &none                                    &kp LG(EQUAL)        &none             &none                 &none              &none
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &none       &kp LG(F12)         &kp LG(MINUS)        &kp LG(LC(LEFT))  &kp LG(LC(UP_ARROW))  &kp LG(LC(RIGHT))  &kp LC(UP_ARROW)
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &none           &kp LG(LS(RIGHT_ARROW))  &none    &kp F1      &kp F12             &none                &none             &none                 &none              &none
+&bt BT_SEL 0    &bt BT_SEL 1            &bt BT_SEL 2    &trans                   &trans   &trans      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                             &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -119,9 +119,18 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &mo 5   &trans  &trans      &trans    &trans    &mkp LCLK  &mkp RCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                                &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
