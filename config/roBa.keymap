@@ -83,7 +83,7 @@
 &kp Q             &kp W     &kp E     &kp R                        &kp T                                                     &kp Y                    &kp U  &lt 4 I    &kp O    &kp P
 &mt LEFT_SHIFT A  &kp S     &kp D     &kp F                        &kp G        &kp LS(LG(S))             &kp ESCAPE         &kp H                    &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SEMI
 &kp Z             &kp X     &kp C     &kp V                        &kp B        &kp LEFT_CONTROL          &kp RIGHT_CONTROL  &kp N                    &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LALT  &kp LGUI  &lt_to_layer_0 1 INT_HENKAN  &lt 3 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE      &mt RIGHT_COMMAND ENTER                             &kp DEL
+&kp LCTRL         &kp LALT  &kp LGUI  &lt_to_layer_0 1 INT_HENKAN  &lt 3 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE      &mt RIGHT_COMMAND ENTER                             &lt 6 BACKSLASH
             >;
         };
 
@@ -131,6 +131,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        BLUETOOTH {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
         };
     };
