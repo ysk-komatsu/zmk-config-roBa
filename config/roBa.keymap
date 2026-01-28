@@ -98,19 +98,19 @@
 
         NUM {
             bindings = <
-&kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &none                                                &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none            &none
-&kp CARET  &kp AMPERSAND  &none     &kp GRAVE   &none   &kp LC(LA(KP_NUMBER_0))      &kp EQUAL       &kp PLUS          &kp ASTERISK          &kp PERCENT            &none            &kp BACKSLASH
-&none      &none          &none     &kp TILDE   &none   &none                        &kp UNDER       &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp PIPE
-&none      &none          &none     &trans      &trans  &trans                       &kp LANGUAGE_2  &kp LANGUAGE_1                                                                  &none
+&kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp SINGLE_QUOTE                               &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none            &none
+&kp CARET  &kp AMPERSAND  &none     &kp GRAVE   &kp DOUBLE_QUOTES  &none       &kp EQUAL       &kp PLUS          &kp ASTERISK          &kp PERCENT            &none            &kp BACKSLASH
+&none      &none          &none     &kp TILDE   &none              &none       &kp UNDER       &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp PIPE
+&none      &none          &none     &trans      &trans             &trans      &kp LANGUAGE_2  &kp LANGUAGE_1                                                                  &none
             >;
         };
 
         ARROW {
             bindings = <
-&none  &none           &kp UP_ARROW    &none            &none                                   &none                &kp F12           &kp LG(F12)           &none              &none
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp LG(EQUAL)       &kp LA(SPACE)        &kp LG(LC(LEFT))  &kp LG(LC(UP_ARROW))  &kp LG(LC(RIGHT))  &kp LC(UP_ARROW)
-&none  &none           &none           &none            &none   &kp F1      &kp LG(MINUS)       &none                &none             &none                 &none              &none
-&none  &none           &none           &trans           &trans  &trans      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                             &none
+&none  &none           &kp UP_ARROW    &none            &none                                   &kp F12              &mkp MB4          &mkp MB5        &none              &none
+&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp LG(EQUAL)       &kp LG(F12)          &mkp LCLK         &mkp RCLK       &kp LC(UP)         &kp LA(SPACE)
+&none  &none           &none           &none            &none   &kp F1      &kp LG(MINUS)       &none                &kp LG(LC(LEFT))  &kp LG(LC(UP))  &kp LG(LC(RIGHT))  &none
+&none  &none           &none           &trans           &trans  &trans      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                       &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -118,10 +118,10 @@
 
         MOUTH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
