@@ -21,10 +21,8 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer 4 10000>;
-
         scroller {
-        layers = <5>;
+        layers = <3>;
         input-processors = <&zip_xy_to_scroll_mapper>;
         };
     };
