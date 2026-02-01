@@ -8,13 +8,13 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: MOUTH}
+  - I
   - O
   - P
   - {t: A, h: LEFT SHIFT}
   - S
   - D
-  - {t: F, h: scroll}
+  - F
   - G
   - Sft+Gui+S
   - ESCAPE
@@ -38,8 +38,8 @@ layers:
   - LCTRL
   - LALT
   - LGUI
-  - {t: '&to_layer_0 INT_HENKAN', h: Number}
-  - {t: SPACE, h: ARROW}
+  - {t: '&to_layer_0 LS(TAB)', h: Number}
+  - {t: '&to_layer_0 SPACE', h: ARROW}
   - {t: '&to_layer_0 TAB', h: NUM}
   - BACKSPACE
   - {t: ENTER, h: RIGHT COMMAND}
@@ -101,28 +101,28 @@ layers:
   - ''
   - ^
   - '&'
-  - ''
+  - '|'
   - '`'
   - '"'
   - ''
   - '='
   - +
-  - '*'
+  - '{'
+  - '}'
   - '%'
-  - ''
   - \
   - ''
   - ''
   - ''
   - '~'
   - ''
-  - ''
+  - '@'
   - _
+  - '*'
   - '['
   - ']'
-  - '{'
-  - '}'
-  - '|'
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -141,27 +141,27 @@ layers:
   - F12
   - '&mkp MB4'
   - '&mkp MB5'
-  - ''
-  - ''
+  - Gui+=
+  - Gui+-
   - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - ''
   - ''
-  - Gui+=
+  - Alt+SPACE
   - Gui+F12
   - '&mkp LCLK'
   - '&mkp RCLK'
   - Ctl+UP
-  - Alt+SPACE
+  - ''
   - ''
   - ''
   - ''
   - ''
   - ''
   - F1
-  - Gui+-
+  - LEFT SHIFT
   - ''
   - Gui+Ctl+LEFT
   - Gui+Ctl+UP
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Ctl+LEFT ARROW
+  - Ctl+LEFT
   - Ctl+RIGHT ARROW
   - ''
   MOUTH:
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,7 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
