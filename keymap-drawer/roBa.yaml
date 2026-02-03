@@ -13,7 +13,7 @@ layers:
   - P
   - {t: A, h: LEFT SHIFT}
   - S
-  - D
+  - {t: '&to_layer_0 D', h: scroll}
   - F
   - G
   - Sft+Gui+S
@@ -47,7 +47,7 @@ layers:
   Number:
   - ''
   - ''
-  - ''
+  - Ctl+UP
   - ''
   - ''
   - ''
@@ -56,9 +56,9 @@ layers:
   - '9'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+Gui+LEFT
+  - Ctl+Gui+UP
+  - Ctl+Gui+RIGHT
   - ''
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - '&mkp MB5'
   - Gui+=
   - Gui+-
-  - ''
+  - Ctl+LEFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -154,7 +154,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - Ctl+UP
-  - ''
+  - Ctl+RIGHT
   - ''
   - ''
   - ''
@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+RIGHT ARROW
+  - RIGHT SHIFT
+  - Gui+ENTER
   - ''
   MOUTH:
   - {t: ▽, type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
