@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Ctl+LEFT
-  - Ctl+RIGHT
+  - LANG2
+  - LANG1
   - ''
   ARROW:
   - ''
@@ -160,8 +160,8 @@ layers:
   - ''
   - ''
   - ''
-  - F7
-  - F10
+  - ''
+  - RIGHT SHIFT
   - ''
   - Gui+Ctl+LEFT
   - Gui+Ctl+UP
@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - LANG2
-  - LANG1
+  - Ctl+ENTER
+  - Gui+ENTER
   - ''
   MOUTH:
   - {t: ▽, type: trans}
