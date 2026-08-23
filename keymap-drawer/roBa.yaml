@@ -11,9 +11,9 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT SHIFT}
+  - A
   - S
-  - {t: '&to_layer_0 D', h: scroll}
+  - D
   - F
   - G
   - Sft+Gui+S
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - {t: ;, h: RIGHT SHIFT}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -47,7 +47,7 @@ layers:
   Number:
   - ''
   - ''
-  - Ctl+UP
+  - Sft+UP ARROW
   - ''
   - ''
   - ''
@@ -56,9 +56,9 @@ layers:
   - '9'
   - ''
   - ''
-  - Ctl+Gui+LEFT
-  - Ctl+Gui+UP
-  - Ctl+Gui+RIGHT
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+RIGHT
   - ''
   - ''
   - ''
@@ -85,43 +85,43 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F7
+  - F10
   - ''
   NUM:
   - '!'
-  - '@'
-  - '#'
+  - '~'
   - $
-  - ''''
+  - '['
+  - ']'
   - '-'
+  - '*'
+  - '%'
   - (
   - )
-  - ''
-  - ''
   - ^
   - '&'
   - '|'
-  - '`'
-  - '"'
+  - '@'
+  - \
   - ''
   - '='
   - +
+  - ''''
+  - '"'
   - '{'
   - '}'
-  - '%'
-  - \
   - ''
   - ''
   - ''
-  - '~'
   - ''
-  - '@'
+  - ''
+  - ''
   - _
-  - '*'
-  - '['
-  - ']'
-  - ''
+  - '#'
+  - '`'
+  - '!'
+  - '?'
   - ''
   - ''
   - ''
@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - LANGUAGE 2
-  - LANGUAGE 1
+  - Ctl+LEFT
+  - Ctl+RIGHT
   - ''
   ARROW:
   - ''
@@ -147,7 +147,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - ''
+  - F1
   - ''
   - Alt+SPACE
   - Gui+F12
@@ -160,8 +160,8 @@ layers:
   - ''
   - ''
   - ''
-  - F1
-  - LEFT SHIFT
+  - F7
+  - F10
   - ''
   - Gui+Ctl+LEFT
   - Gui+Ctl+UP
@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - RIGHT SHIFT
-  - Gui+ENTER
+  - LANG2
+  - LANG1
   - ''
   MOUTH:
   - {t: ▽, type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
