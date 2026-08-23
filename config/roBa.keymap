@@ -99,19 +99,19 @@
 
         NUM {
             bindings = <
-&kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp SINGLE_QUOTE                               &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none        &none
-&kp CARET  &kp AMPERSAND  &kp PIPE  &kp GRAVE   &kp DOUBLE_QUOTES  &none       &kp EQUAL       &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT  &kp BACKSLASH
-&none      &none          &none     &kp TILDE   &none              &kp AT      &kp UNDER       &kp ASTRK       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &none
-&none      &none          &none     &trans      &trans             &trans      &kp LANGUAGE_2  &kp LANGUAGE_1                                                            &none
+&kp EXCL   &kp TILDE      &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                              &kp MINUS  &kp ASTERISK  &kp PERCENT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp CARET  &kp AMPERSAND  &kp PIPE    &kp HASH          &kp NON_US_BACKSLASH  &none       &kp EQUAL    &kp PLUS   &kp SQT       &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&none      &none          &none       &none             &none                 &none       &kp UNDER    &none      &kp GRAVE     &kp EXCLAMATION    &kp QUESTION          &none
+&none      &none          &none       &trans            &trans                &trans      &kp AT_SIGN  &none                                                             &none
             >;
         };
 
         ARROW {
             bindings = <
-&none         &none           &kp UP_ARROW    &none            &none                                &kp F12        &mkp MB4          &mkp MB5        &kp LG(EQUAL)      &kp LG(MINUS)
-&kp LC(LEFT)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp LA(SPACE)    &kp LG(F12)    &mkp LCLK         &mkp RCLK       &kp LC(UP)         &kp LC(RIGHT)
-&none         &none           &none           &none            &none   &kp F1      &kp LEFT_SHIFT   &none          &kp LG(LC(LEFT))  &kp LG(LC(UP))  &kp LG(LC(RIGHT))  &none
-&none         &none           &none           &trans           &trans  &trans      &kp RIGHT_SHIFT  &kp LG(ENTER)                                                       &none
+&none         &none           &kp UP_ARROW    &none            &none                              &kp F12        &mkp MB4          &mkp MB5        &kp LG(EQUAL)      &kp LG(MINUS)
+&kp LC(LEFT)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F1  &none       &kp LA(SPACE)  &kp LG(F12)    &mkp LCLK         &mkp RCLK       &kp LC(UP)         &kp LC(RIGHT)
+&none         &none           &none           &none            &none   &kp F7      &kp F10        &none          &kp LG(LC(LEFT))  &kp LG(LC(UP))  &kp LG(LC(RIGHT))  &none
+&none         &none           &none           &trans           &trans  &trans      &kp LANG2      &kp LG(LANG1)                                                       &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
