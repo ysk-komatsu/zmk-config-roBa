@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp EXCL   &kp TILDE      &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                         &kp MINUS  &kp ASTERISK  &kp PERCENT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp CARET  &kp AMPERSAND  &kp PIPE    &kp AT_SIGN       &kp BACKSLASH      &none       &kp EQUAL  &kp PLUS   &kp SQT       &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&none      &none          &none       &none             &none              &none       &kp UNDER  &kp HASH   &kp GRAVE     &kp EXCLAMATION    &kp QUESTION          &none
-&none      &none          &none       &trans            &trans             &trans      &kp LANG2  &kp LANG1                                                         &none
+&kp EXCL   &kp TILDE      &kp AT_SIGN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                         &kp MINUS  &kp ASTERISK  &kp PERCENT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp CARET  &kp AMPERSAND  &kp PIPE     &kp DOLLAR        &kp BACKSLASH      &none       &kp EQUAL  &kp PLUS   &kp SQT       &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&none      &none          &none        &none             &none              &none       &kp UNDER  &kp HASH   &kp GRAVE     &kp EXCLAMATION    &kp QUESTION          &none
+&none      &none          &none        &trans            &trans             &trans      &kp LANG2  &kp LANG1                                                         &none
             >;
         };
 
